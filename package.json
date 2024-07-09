@@ -1,6 +1,6 @@
 {
   "name": "expo-font-weights",
-  "version": "12.0.6",
+  "version": "12.0.7",
   "description": "Load fonts at runtime and use them in React Native components.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -21,7 +21,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jongbelegen/expo-font-weights.git",
+    "url": "https://github.com/jongbelegen/expo-font-weights.git"
   },
   "bugs": {
     "url": "https://github.com/jongbelegen/expo-font-weights/issues"

@@ -1,6 +1,6 @@
 // Copyright 2015-present 650 Industries. All rights reserved.
 
-package expo.modules.font
+package expo.modules.font-weights
 
 import android.content.Context
 import android.graphics.Typeface
