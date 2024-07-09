@@ -11,7 +11,7 @@ useDefaultAndroidSdkVersions()
 useExpoPublishing()
 
 android {
-  namespace "expo.modules.font-weights"
+  namespace "expo.modules.fontWeights"
   defaultConfig {
     versionCode 29
     versionName "12.0.5"
