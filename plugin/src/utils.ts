@@ -2,7 +2,7 @@ import fs from 'fs/promises';
 import path from 'path';
 
 export function toAndroidResourceString(string: string) {
-  return string.replace(/(-| )/, '_').toLowerCase();
+  return string.replace(/(-| )/g, '_').toLowerCase();
 }
 
 export async function resolveFontPaths(fonts: string[], projectRoot: string) {

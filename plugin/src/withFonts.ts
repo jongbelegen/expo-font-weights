@@ -27,12 +27,6 @@ const withFonts: ConfigPlugin<FontProps> = (config, props) => {
     return config;
   }
 
-  if (props.fonts.some((font) => font.family.includes(" "))) {
-    throw new Error(
-      "Font family names must not contain any spaces. Please remove spaces from the font family names in your configuration."
-    );
-  }
-
   config = withFontsIos(config, props.fonts ?? []);
   config = withFontsAndroid(config, props.fonts ?? []);
 
