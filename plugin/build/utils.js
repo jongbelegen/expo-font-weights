@@ -9,7 +9,7 @@ exports.groupBy = groupBy;
 const promises_1 = __importDefault(require("fs/promises"));
 const path_1 = __importDefault(require("path"));
 function toAndroidResourceString(string) {
-    return string.replace(/(-| )/, '_').toLowerCase();
+    return string.replace(/(-| )/g, '_').toLowerCase();
 }
 async function resolveFontPaths(fonts, projectRoot) {
     const promises = fonts.map(async (p) => {
